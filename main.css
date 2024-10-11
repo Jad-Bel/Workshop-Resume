@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: aria, sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.pfp img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15%;
+    border: 1px solid #ccc;
+}
+
+.personal-info, 
+.professional-objective,
+.experience,
+.education,
+.languages,
+.interests {
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+h
